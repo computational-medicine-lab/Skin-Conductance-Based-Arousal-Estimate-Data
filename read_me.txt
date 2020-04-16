@@ -58,6 +58,13 @@ A non-EEG biosignals dataset for assessment and visualization of neurological st
 
 	field "arousal_Tracking_result" contains the following variables
 	
+	u: 			        neural stimuli for 15 min 40 second signal 
+					(mini emotional stress+cognitive stress+relaxation+emotional stress)
+					
+	Fsu: 				sampling Frequency for u
+	binary:				binned Binary Data
+	binary_bin_size:		size of the bin
+	binary_bin_size_unit:		unit for the bin size
 	arousal_state_Z: 		estimated arousal state at jth bin
 	lower_confidence_level_of_Z:	calculated lower confidence level for Z with 95% confidence interval
 	upper_confidence_level_of_Z:	calculated upper confidence level for Z with 95% confidence interval
